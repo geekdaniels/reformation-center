@@ -1,0 +1,100 @@
+body{
+ font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-def{
+ background-color: #ffffff !important;
+}
+.text-primary {
+ color: #612194 !important;
+ font-size: 12px !important;
+}
+.btn-danger{
+ background-color: #A30808 !important;
+ font-size: 12px;
+}
+.body_bg{
+ background-image: url(../img/body_mask.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.banner_img{
+ background-image: url(../img/Banner%20Image.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 85vh;
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+ clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%);
+}
+
+.uppercase{
+ text-transform: uppercase;
+}
+
+.light{
+ font-weight: 100 !important;
+ font-size: 15px !important;
+}
+
+.bg_white{
+ background-color: #ffffff;
+}
+.text-5{
+ color: #612194 !important;
+ font-size: 30px !important;
+}
+
+text-color{
+ color: #612194 !important;
+}
+.mt-def{
+ margin-top: 110px;
+}
+
+h5.title{
+ background-color: #612194;
+ border-left: 10px solid #C18D08;
+}
+
+.color_2{
+ color: #C18D08;
+}
+
+.font-medium{
+ font-size: 13px !important;
+}
+
+.post_link{
+ font-size: 13px;
+}
+
+.footer{
+ background-color: #612194;
+}
+
+.footer ul a {
+ color: #ffffff;
+ font-size: 13px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+
+ .banner_img{
+  background-image: url(../img/Banner%20Image%20mob.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+/*  height: 85vh;*/
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+ }
+ .mob-margin-top{
+  margin-top: 15px;
+ }
+ .mob_float {
+  float: left !important;
+  margin-left: 12px !important;
+ }
+ .mob_list {
+  display: block !important;
+ }
+}
